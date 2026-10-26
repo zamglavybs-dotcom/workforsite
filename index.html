@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta name="google-site-verification" content="QJpJkQsGx8Xf-BE1u43cyCyEgCcYmIKffijyd5e_Z20" />
-<meta name="yandex-verification" content="d5efdd77c37ee185" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="QJpJkQsGx8Xf-BE1u43cyCyEgCcYmIKffijyd5e_Z20" />
+<meta name="yandex-verification" content="d5efdd77c37ee185" />
 <title>ваши сайты за короткий срок — и пока бесплатно</title>
-<meta name="description" content="Создаю сайты за день. Первые проекты — бесплатно. Связь: @absolute_v_potoke">
+<meta name="description" content="Заказать сайт за день — лендинг, сайт-визитка, дизайн интерфейсов. Делаю бесплатно: мне в портфолио, вам — работающий сайт. Telegram: @absolute_v_potoke">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ваши сайты за короткий срок — и пока бесплатно">
 <meta property="og:description" content="Сделаю сайт за день: лендинг, визитка, дизайн. Первые проекты — бесплатно. Пишите в telegram: @absolute_v_potoke">
@@ -316,6 +316,29 @@
   }
   .checks li:last-child{border-bottom:1px solid var(--line-dark)}
   .checks svg{width:16px;height:16px;color:var(--accent);flex-shrink:0}
+
+  /* ---- доп. услуги: честно о расходах ---- */
+  .extra{
+    margin-top:clamp(32px,5vh,48px);
+    border:1px solid var(--line-dark);
+    border-radius:18px;
+    padding:clamp(24px,4vw,38px);
+    max-width:760px;
+  }
+  .extra-tag{
+    display:inline-block;
+    font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+    color:var(--accent);
+    border:1px solid var(--line-dark);
+    border-radius:999px;
+    padding:6px 13px;
+    margin-bottom:18px;
+  }
+  .extra p{color:rgba(244,240,230,.78);max-width:60ch;font-size:clamp(.98rem,1.3vw,1.1rem)}
+  .extra p + p{margin-top:12px}
+  .extra b{color:var(--paper);font-weight:500}
+  .extra em{color:var(--accent);font-style:italic}
+
   .dark-note{margin-top:34px;color:rgba(244,240,230,.55);max-width:56ch}
 
   /* ---- контакт ---- */
@@ -563,7 +586,7 @@
         <div class="prc">
           <span class="prc-day">вечер</span>
           <span class="prc-name">правки и запуск</span>
-          <span class="prc-text">Вносим правки, подключаем домен и хостинг. К ночи сайт работает — и он полностью ваш.</span>
+          <span class="prc-text">Вносим правки и подключаем домен с хостингом — это сторонние сервисы, их стоимость оплачиваете вы. К ночи сайт работает — и он полностью ваш.</span>
         </div>
       </div>
     </section>
@@ -582,9 +605,17 @@
         <ul class="checks" data-reveal style="--d:.2s">
           <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5L20 6.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>оплата — отзыв и пара скриншотов в моё портфолио</li>
           <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5L20 6.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>правки включены: сколько нужно, пока не устроит</li>
-          <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5L20 6.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>домен и хостинг помогу подключить — это несложно</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5L20 6.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>все файлы и доступы передаю вам — сайт полностью ваш</li>
         </ul>
-        <p class="dark-note mono" data-reveal style="--d:.3s">* это честная сделка, а не маркетинг: первые проекты — бесплатно, дальше цены появятся здесь же.</p>
+
+        <!-- доп. услуги: честно о расходах -->
+        <div class="extra" data-reveal style="--d:.3s">
+          <span class="extra-tag mono">доп. услуги — честно о расходах</span>
+          <p><b>Сам сайт создаётся полностью бесплатно</b> — это моя часть сделки, без звёздочек.</p>
+          <p>Но домен, хостинг и другие услуги, не связанные со мной, оплачиваете вы — это сторонние сервисы со своими ценами. Если хотите, подключу их за вас: за ваши средства и по собственной цене услуги, без наценки — <em>себе ничего не забираю</em>.</p>
+        </div>
+
+        <p class="dark-note mono" data-reveal style="--d:.4s">* это честная сделка, а не маркетинг: первые проекты — бесплатно, дальше цены появятся здесь же.</p>
       </div>
     </section>
 
